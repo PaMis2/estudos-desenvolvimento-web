@@ -1,0 +1,103 @@
+/* para formatações gerais utilizar o asterisco *  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #CCC;
+}
+
+#area-logo{
+    background-color: rgb(220, 147, 59);
+    padding: 15px;
+    text-align: center;
+    
+}
+#menu{
+    background-color: rgb(220, 147, 59);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+.postagem{
+    background-color: white;
+    padding: 20px;
+	margin-bottom: 20px;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.texto-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+.data-postagem{
+    color: black;
+   
+}
+
+.postagem a, .conteudo-lateral a{
+    color: rgb(220, 147, 59);
+}
+.postagem a:hover, .conteudo-lateral a:hover{
+    text-decoration: underline;
+}
+
+
+h2{
+    color: rgb(220, 147, 59);
+}
+
+h3{
+    background-color: darkgray;
+    color: #565656;
+    padding: 5px;
+}
+span{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+ #menu a:hover{
+    background-color: white;
+    padding: 8px;
+    color: rgb(220, 147, 59);
+}
+footer{
+    background-color: darkgrey;
+    padding: 15px;
+    text-align: center;
+    clear: both;
+}
